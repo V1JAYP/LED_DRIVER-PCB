@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=6364372-1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=2.1
+Released=2017-07-10 10:22:58
+Downloaded=2026-11-07 19:32:57
+3D=Y

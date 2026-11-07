@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '6364372_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TE Connectivity", "6364372-1" (!) = "", "6364372-1", "Other", "571-6364372-1", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/6364372-1?qs=yZ6DBFL7C40h1FotLHIeIw%3D%3D", "Body Features: Connector Profile Standard | Shell Plating Material Tin | Shell Plating Finish Bright | Configuration Features: Number of Ports 1 | Number of Mounting Legs 2 | Number of Positions 4 | Contact Features: Contact Mating Area Plating Material Gold or Gold Flash over Palladium Nickel | Contact Mating Area Plating Material Thickness .76 MICM | Contact Mating Area Plating Material Thickness 29.92 MICIN | Contact Current Rating (Max) 1 AMP | Dimensions: PCB Thickness (Recommended) 1.57 MM | PCB Thick", "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=6364372&DocType=Customer+Drawing&DocLang=English"
+END_PART
+
+END.
