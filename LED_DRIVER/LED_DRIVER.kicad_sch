@@ -2188,6 +2188,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2456,6 +2579,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 411.48 276.86)
@@ -2482,6 +2720,12 @@
 		(uuid "5d7ec128-6484-4411-a9c1-d4d4d320cb94")
 	)
 	(junction
+		(at 476.25 341.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61a5ad78-8134-4acb-9314-4b343ce7c3f2")
+	)
+	(junction
 		(at 464.82 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2492,6 +2736,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75687d47-94ce-47f8-be39-a8c01e2afde5")
+	)
+	(junction
+		(at 430.53 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76d27dc3-4592-401a-8e0a-2d2222c12f93")
 	)
 	(junction
 		(at 388.62 242.57)
@@ -2506,6 +2756,12 @@
 		(uuid "95764db4-9fd1-4cab-b43f-c21736ebdff2")
 	)
 	(junction
+		(at 462.28 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1ccfd56-59d7-4cc3-bbbf-a105254745f1")
+	)
+	(junction
 		(at 435.61 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2516,6 +2772,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0104961-2952-472b-b0fb-d6496d9a0f5e")
+	)
+	(junction
+		(at 445.77 341.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3740e9-658c-4165-843b-2888e68fd8b2")
 	)
 	(junction
 		(at 495.3 287.02)
@@ -2546,6 +2808,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f17d5d26-e8ca-49cf-b8c6-0c49efbda252")
+	)
+	(junction
+		(at 463.55 341.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f481ada0-252a-43a7-bc4b-c144179665e8")
 	)
 	(no_connect
 		(at 438.15 309.88)
@@ -2675,6 +2943,16 @@
 	)
 	(wire
 		(pts
+			(xy 463.55 347.98) (xy 464.82 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081e9255-c24e-4a74-a3cb-a09ebc2b4f0d")
+	)
+	(wire
+		(pts
 			(xy 486.41 265.43) (xy 495.3 265.43)
 		)
 		(stroke
@@ -2702,6 +2980,16 @@
 			(type default)
 		)
 		(uuid "16482164-9020-46f2-88b0-4432806c1581")
+	)
+	(wire
+		(pts
+			(xy 445.77 341.63) (xy 463.55 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186da8e3-c942-4dca-8422-170fe08ea069")
 	)
 	(wire
 		(pts
@@ -2735,6 +3023,16 @@
 	)
 	(wire
 		(pts
+			(xy 463.55 341.63) (xy 476.25 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c3f79b-a5b0-42c6-bb99-a3021f8fc604")
+	)
+	(wire
+		(pts
 			(xy 495.3 287.02) (xy 524.51 287.02)
 		)
 		(stroke
@@ -2742,6 +3040,16 @@
 			(type default)
 		)
 		(uuid "3b64a58d-db33-4106-831a-3f445823711d")
+	)
+	(wire
+		(pts
+			(xy 463.55 341.63) (xy 463.55 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4048dc06-fc53-4938-9411-f49e6186c704")
 	)
 	(wire
 		(pts
@@ -2775,13 +3083,23 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 269.24) (xy 461.01 269.24)
+			(xy 461.01 269.24) (xy 463.55 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "51c7411a-c3c5-4a32-84e3-2e9e6216c9c3")
+	)
+	(wire
+		(pts
+			(xy 411.48 341.63) (xy 445.77 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59226be1-eec9-4dc6-8651-656751da5100")
 	)
 	(wire
 		(pts
@@ -2895,7 +3213,7 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 276.86) (xy 424.18 276.86)
+			(xy 429.26 276.86) (xy 424.18 276.86)
 		)
 		(stroke
 			(width 0)
@@ -3015,6 +3333,16 @@
 	)
 	(wire
 		(pts
+			(xy 476.25 341.63) (xy 511.81 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6b6e34-6052-46c4-8cb3-17e471554864")
+	)
+	(wire
+		(pts
 			(xy 397.51 266.7) (xy 397.51 269.24)
 		)
 		(stroke
@@ -3095,6 +3423,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 266.7) (xy 424.18 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea434c29-5e1c-41e0-a4c2-5dacbd5c8299")
+	)
+	(wire
+		(pts
 			(xy 462.28 287.02) (xy 495.3 287.02)
 		)
 		(stroke
@@ -3112,6 +3450,16 @@
 			(type default)
 		)
 		(uuid "eb3d71a9-73fc-42f8-8ce8-d12188d09b01")
+	)
+	(wire
+		(pts
+			(xy 434.34 266.7) (xy 430.53 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed05780e-d50a-4d13-8d4a-fd1eacd82570")
 	)
 	(wire
 		(pts
@@ -3760,7 +4108,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 424.18 266.7 90)
+		(at 434.34 266.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3771,7 +4119,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bdcf7d8-8cde-44f9-a00b-9d59f4a784ef")
 		(property "Reference" "#PWR01"
-			(at 430.53 266.7 0)
+			(at 440.69 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3782,7 +4130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 427.99 266.6999 90)
+			(at 438.15 266.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3793,7 +4141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 424.18 266.7 0)
+			(at 434.34 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 424.18 266.7 0)
+			(at 434.34 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +4163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 424.18 266.7 0)
+			(at 434.34 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3832,6 +4180,85 @@
 			(project "LED_DRIVER"
 				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 411.48 339.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "399cc329-78f4-4067-b68e-ad9c11a750ee")
+		(property "Reference" "H1"
+			(at 414.02 336.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 414.02 339.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 411.48 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 411.48 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "280e3b06-d4fc-44a1-8987-e5a2948c374f")
+		)
+		(instances
+			(project "LED_DRIVER"
+				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4151,6 +4578,84 @@
 			(project "LED_DRIVER"
 				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 462.28 279.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5370a0f7-f78e-440c-90a3-20a776e5ce9b")
+		(property "Reference" "#FLG02"
+			(at 462.28 277.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 462.28 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 462.28 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 462.28 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 462.28 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c681f481-9d4a-406f-b05e-6abbd135ffa5")
+		)
+		(instances
+			(project "LED_DRIVER"
+				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4485,6 +4990,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 511.81 339.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "657f7ab2-d830-4c51-af8e-744e36be1e63")
+		(property "Reference" "H4"
+			(at 514.35 336.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 514.35 339.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 511.81 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 511.81 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 511.81 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ab2075d-5fae-4b71-915a-3bb7777388bf")
+		)
+		(instances
+			(project "LED_DRIVER"
+				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 528.32 284.48 90)
 		(unit 1)
@@ -4558,6 +5142,85 @@
 			(project "LED_DRIVER"
 				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 476.25 339.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f26b2da-112f-40d8-9283-af8be0eb6b71")
+		(property "Reference" "H3"
+			(at 478.79 336.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 478.79 339.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 476.25 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 476.25 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 476.25 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "638aada9-7d7d-4f35-b2dd-48594c2919dd")
+		)
+		(instances
+			(project "LED_DRIVER"
+				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4992,6 +5655,241 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 464.82 347.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90763596-7b4c-4d63-8b49-6166fada42e3")
+		(property "Reference" "#PWR08"
+			(at 464.82 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 464.82 353.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 464.82 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 464.82 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d755fdd6-ceca-4ab6-9316-3b2fde6d0436")
+		)
+		(instances
+			(project "LED_DRIVER"
+				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 445.77 339.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8f6cd51-d31e-40d2-9f8b-5e7bd50e6a7c")
+		(property "Reference" "H2"
+			(at 448.31 336.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 448.31 339.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 445.77 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 445.77 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 445.77 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfda2c83-bc9d-4880-971f-c288737b7faf")
+		)
+		(instances
+			(project "LED_DRIVER"
+				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 430.53 266.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9fd303a-5a50-4951-b712-19ee2de05f4b")
+		(property "Reference" "#FLG01"
+			(at 430.53 264.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 430.53 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 430.53 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25d1ee06-d800-4623-91cc-0dd04428958d")
+		)
+		(instances
+			(project "LED_DRIVER"
+				(path "/1eb37168-72c4-4f9f-83c6-5b2bdb4ab2c9"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 421.64 208.28 0)
 		(unit 1)
@@ -5074,7 +5972,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 425.45 276.86 90)
+		(at 429.26 276.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5085,7 +5983,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5fe7345-7b11-4d30-970b-7d5fac193a3d")
 		(property "Reference" "#PWR07"
-			(at 431.8 276.86 0)
+			(at 435.61 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +5994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 429.26 276.8599 90)
+			(at 433.07 276.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5107,7 +6005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 425.45 276.86 0)
+			(at 429.26 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5118,7 +6016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 425.45 276.86 0)
+			(at 429.26 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5129,7 +6027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 425.45 276.86 0)
+			(at 429.26 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
